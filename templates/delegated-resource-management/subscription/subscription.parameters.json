@@ -3,25 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Relecloud Managed Services"
+            "value": "Circle Cloud Delegated Access for Azure Subscriptions"
         },
         "mspOfferDescription": {
-            "value": "Relecloud Managed Services"
+            "value": "Acceptance of this offer will grant Circle Cloud Ltd. to manage your Azure Subscription."
         },
         "managedByTenantId": {
-            "value": "<insert managing tenant id>"
+            "value": "de4d316d-888b-4234-ae27-31c8fd9e1c03"
         },
         "authorizations": {
             "value": [
                 { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
+                    "principalId": "88599163-b5ef-4ee1-a48a-a407224fbcfc", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Reader" 
                 }, 
                 { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
+                    "principalId": "a25d1a5c-933d-42f1-9c90-50cc6df4c35a", 
+                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Owner"
                     
                 },
                 {
