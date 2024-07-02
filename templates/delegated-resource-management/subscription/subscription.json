@@ -6,25 +6,50 @@
             "type": "string",
             "metadata": {
                 "description": "Specify a unique name for your offer"
-            }
+            },
+            "defaultValue": "Circle Cloud Delegated Access for Azure Subscriptions"
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
-            }
+            },
+            "defaultValue": "Acceptance of this offer will grant Circle Cloud Ltd. to manage your Azure Subscription."
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
-            }
+            },
+            "defaultValue": "de4d316d-888b-4234-ae27-31c8fd9e1c03"
         },
         "authorizations": {
             "type": "array",
             "metadata": {
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
-            }
+            },
+            "defaultValue": [
+                { 
+                    "principalId": "88599163-b5ef-4ee1-a48a-a407224fbcfc", 
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Reader" 
+                }, 
+                { 
+                    "principalId": "a25d1a5c-933d-42f1-9c90-50cc6df4c35a", 
+                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Owner"
+                    
+                },
+                {
+                    "principalId": "00000000-0000-0000-0000-000000000000",
+                    "principalIdDisplayName": "PIM_Group",
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "delegatedRoleDefinitionIds": [
+                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+                    ]
+                }
+                    ]
         }              
     },
     "variables": {
