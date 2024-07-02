@@ -35,19 +35,16 @@
                     "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Reader" 
                 }, 
                 { 
-                    "principalId": "a25d1a5c-933d-42f1-9c90-50cc6df4c35a", 
-                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
-                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Owner"
+                    "principalId": "076cc2d1-5a97-42df-8e25-e4e746280a05", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Contributor"
                     
                 },
-                {
-                    "principalId": "00000000-0000-0000-0000-000000000000",
-                    "principalIdDisplayName": "PIM_Group",
+                { 
+                    "principalId": "740adb82-3591-4151-b465-3be95cbd07ba", 
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
-                    "delegatedRoleDefinitionIds": [
-                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
-                    ]
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-UserAccessAdministrator"
+                    
                 }
                     ]
         }              
