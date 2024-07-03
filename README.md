@@ -1,5 +1,5 @@
 
-# Circle Cloud Ltd. - Azure Lighthouse Onboarding
+# Circle Cloud Ltd - Azure Lighthouse Onboarding
 
 Azure Lighthouse provides capabilities to perform cross-tenant management at scale. [Learn more](https://azure.com/lighthouse).
 
