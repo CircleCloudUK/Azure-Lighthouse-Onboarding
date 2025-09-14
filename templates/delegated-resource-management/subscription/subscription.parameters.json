@@ -24,6 +24,11 @@
                     "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Contributor"
                     
                 }
+                { 
+                    "principalId": "076cc2d1-5a97-42df-8e25-e4e746280a05", 
+                    "principalIdDisplayName": "SGU-A-M365-Lighthouse-Azure-Subscription-Contributor", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46" 
+        } 
                     ]
                 }                
         }
